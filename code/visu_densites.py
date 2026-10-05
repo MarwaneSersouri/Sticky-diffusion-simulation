@@ -246,7 +246,7 @@ plt.close()
 #   Rouges = rejetés (U_i < phi(X_{T_i}) - k)
 
 
-from ponts import trajectory  # import local
+from mon_projet.code.ponts import trajectory  # import local
 
 fig, axes = plt.subplots(1, 2, figsize=(13, 5), facecolor="#0d1117")
 fig.suptitle("Illustration du test PPP sur une trajectoire acceptée",
